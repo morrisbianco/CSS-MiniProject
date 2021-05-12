@@ -1,0 +1,26 @@
+header {
+    margin: 24px;
+    text-align: center;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+body {
+    margin: 24px;
+    padding: 24px;
+}
+
+article p {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 24px;
+    margin: 24px;
+    width: 250px;
+    height: 200px;
+    border-style: dashed;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
