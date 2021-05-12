@@ -1,26 +1,83 @@
+:root {
+    --text-color: lime;
+}
+
+* {
+    background-color: rgb(90, 90, 90);
+}
+
 header {
     margin: 24px;
     text-align: center;
 }
 
 h1 {
-    color: lightgreen;
+    color: var(--text-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header p {
+    padding: o 24px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
 }
 
 body {
     margin: 24px;
     padding: 24px;
+    height: 600px;
 }
 
-article p {
-    border: 2px solid black;
-    box-sizing: border-box;
-    padding: 24px;
-    margin: 24px;
-    width: 250px;
-    height: 200px;
-    border-style: dashed;
-    display: inline-block;
+main {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+section {
+    
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    padding: 16px;
+    margin: 16px;
+    border-style: dashed;
+    margin-top: 40px;
+}
+
+main p {
+    width: auto;
+}
+
+pre {
+    background: linear-gradient(lime,lightgreen);
+    text-align: left;
+    white-space: pre-line;
+}
+
+h3 {
+    border: 2px solid black;
+    padding: 8px;
+    margin: 8px;
+    box-sizing: border-box;
+    transform: translateY(-100%);
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+footer {
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--text-color);
 }

@@ -15,19 +15,79 @@
 </header>
 <body>
     <main>
-        <section>
-            <article>
-                <p>
-                    Example
-                </p>
-                <p>
-                    Example2
-                </p>
-                <p>
-                    Example3
-                </p>
-            </article>
+        <section class="box1">
+            <h3>N-th-Child</h3>
+            <p>The N-th-Child ( ) psuedo code selects every child tag that you have specified within the parentheses, such as even or odd children. </p>
+            <pre>
+
+                :n-th-child(even) {
+                    border-color: green;
+                }
+
+            </pre>
+        </section>
+        <section class="box2">
+            <h3>:root</h3>
+            <p>The :root code is placed at the top of the CSS sheet and is used to create variables that will be used throughout the entire style sheet. </p>
+            <pre>
+
+                :root {
+                    --dark: black;
+                    --light: white;
+                    --text-color: green;
+                }
+
+            </pre>
+        </section>
+        <section class="box3">
+            <h3>Data-Descr</h3>
+            <p>The Data Description attribute is used to show more information about a section on the page through the use of span tag and data-descr=" ". </p>
+            <pre>
+                
+                span [data-descr] {
+                    content: attr(data-descr);
+                    position: absolute;
+                    cursor: pointer;
+                }
+
+            </pre>
+        </section>
+        <section class="box4">
+            <h3>Transform: Rotate</h3>
+            <p>The Transform: Rotate ( ) code allows you to rotate an image any set of degrees that you place in the parentheses. /p>
+            <pre>
+
+                img {
+                    transform: rotate(90deg);
+                }
+
+            </pre>
+        </section>
+        <section class="box5">
+            <h3>Flex</h3>
+            <p>The expanded flex tag allows the section to grow or shrink as the screen size is adjusted. In the code example, the section can grow as the screen changes but not shrink. The third number marks the minimum size for the flex-wrap. </p>
+            <pre>
+                
+                section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex: 1 0 200px;
+                }
+
+            </pre>
+        </section>
+        <section class="box6">
+            <h3>Text</h3>
+            <p>Example6</p>
+            <pre>
+                :n-th-child(even) {
+                    border-color: green;
+                }
+            </pre>
         </section>
     </main>
 </body>
+<footer>
+    <h2>Made with Drugs and CSS!</h2>
+</footer>
 </html>
