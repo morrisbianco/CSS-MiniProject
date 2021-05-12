@@ -13,7 +13,15 @@ header {
 
 h1 {
     color: var(--text-color);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+
+    border-radius: 8px;
+    transition: all 243ms ease-in-out;
+}
+
+h1:hover {
+    box-shadow: inset 0px 0px 8px lime, 0 0 15px lime;
 }
 
 header p {
@@ -48,6 +56,13 @@ section {
     margin: 16px;
     border-style: dashed;
     margin-top: 40px;
+
+    border-radius: 8px;
+    transition: all 243ms ease-in-out ls;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+    box-shadow: inset 0px 0px 8px lime, 0 0 15px lime;
 }
 
 main p {
@@ -58,6 +73,7 @@ pre {
     background: linear-gradient(lime,lightgreen);
     text-align: left;
     white-space: pre-line;
+    user-select: all;
 }
 
 h3 {
@@ -70,12 +86,26 @@ h3 {
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+
+    border-radius: 8px;
+    transition: all 243ms ease-in-out ls;
+}
+
+h3:hover {
+    box-shadow: inset 0px 0px 8px lime, 0 0 15px lime;
 }
 
 footer {
     margin: 24px;
     padding: 24px;
     text-align: center;
+
+    border-radius: 8px;
+    transition: all 243ms ease-in-out;
+}
+
+footer:hover {
+    box-shadow: inset 0px 0px 8px lime, 0 0 15px lime;
 }
 
 h2 {
